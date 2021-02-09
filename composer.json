@@ -31,5 +31,15 @@
     "psr-4": {
       "Iivannov\\Branchio\\": "src"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JasperP981\\Branchio\\Integration\\Laravel\\BranchioServiceProvider"
+      ],
+      "aliases": {
+        "Branchio": "JasperP981\\Branchio\\Integration\\Laravel\\Facade\\Branchio"
+      }
+    }
   }
 }
