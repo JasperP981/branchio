@@ -35,10 +35,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "JasperP981\\Branchio\\Integration\\Laravel\\BranchioServiceProvider"
+        "Iivannov\\Branchio\\Integration\\Laravel\\BranchioServiceProvider"
       ],
       "aliases": {
-        "Branchio": "JasperP981\\Branchio\\Integration\\Laravel\\Facade\\Branchio"
+        "Branchio": "Iivannov\\Branchio\\Integration\\Laravel\\Facade\\Branchio"
       }
     }
   }
